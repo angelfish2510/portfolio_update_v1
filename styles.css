@@ -120,6 +120,16 @@ ul.skills {
   background: #0399ff;
 }
 
+
+card .SCUBA-image {
+  margin-top: 50px;
+  width: 200px;
+  height: 300px;
+  border-radius: 50%;
+  border: 3px solid rgb(255, 255, 255);
+  transition: all .5s;
+}
+
 footer {
   width: 100%;
   min-height: 30px;
