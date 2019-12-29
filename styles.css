@@ -122,11 +122,11 @@ ul.skills {
 
 
 card .SCUBA-image {
-  margin-top: 50px;
-  width: 200px;
-  height: 300px;
+  margin-top: .5px;
+  width: .5px;
+  height: .15px;
   border-radius: 50%;
-  border: 3px solid rgb(255, 255, 255);
+  border: .5px solid rgb(255, 255, 255);
   transition: all .5s;
 }
 
