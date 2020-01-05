@@ -174,7 +174,7 @@ ul.skills {
   color: #390464;
   }
 
-  .card-contact {
+ .card-contact {
     margin: 30px;
     padding: 20px 40px 40px;
     max-width: 500px;
@@ -184,10 +184,70 @@ ul.skills {
     border-radius: 6px;
     transition: all .5s;
     background-color: #89729e;
+    align-items: baseline;
+
+   
+
   }
+
+
   .card-contact:hover {
     border-color:#390464;
   }  
+
+  /* .card-contact-inperson {
+    margin: 30px;
+    padding: 20px 40px 40px;
+    max-width: 500px;
+    text-align: left;
+    background: #89729e;
+    border: 4px solid #ccc;
+    border-radius: 6px;
+    transition: all .5s;
+    background-color: #89729e;
+   
+
+  }
+
+  .card-contact-inperson:hover {
+    border-color:#390464;
+  }  
+
+  .card-contact-phone {
+    margin: 30px;
+    padding: 20px 40px 40px;
+    max-width: 500px;
+    text-align: left;
+    background: #89729e;
+    border: 4px solid #ccc;
+    border-radius: 6px;
+    transition: all .5s;
+    background-color: #89729e;
+   
+
+  }
+
+  .card-contact-phone:hover {
+    border-color:#390464;
+  }  
+
+  .card-contact-email {
+    margin: 30px;
+    padding: 20px 40px 40px;
+    max-width: 500px;
+    text-align: left;
+    background: #89729e;
+    border: 4px solid #ccc;
+    border-radius: 6px;
+    transition: all .5s;
+    background-color: #89729e;
+   
+
+  }
+
+  .card-contact-email:hover {
+    border-color:#390464;
+  }   */
 
 header .interests-image {
   margin-top: 50px;
