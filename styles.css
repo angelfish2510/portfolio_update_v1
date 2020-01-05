@@ -57,7 +57,9 @@ a:hover {
 
 header {
   text-align: center;
-  background: url(images/BackgroundPicture.JPG); alt="Quiet beach in Corozal, Belize" no-repeat top center ;
+  background-image: url(images/BackgroundPicture.JPG);
+  background-repeat: no-repeat;
+  background-position: center top;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -249,10 +251,10 @@ a.social:hover {
 @media screen and (min-width: 720px) {
   
   .flex {
-      display: -ms-flexbox;      /* TWEENER - IE 10 */
+      /* display: -ms-flexbox;      TWEENER - IE 10 */
       display: flex; 
       max-width: 1200px;
-      -ms-flex-pack: distribute;
+      /* -ms-flex-pack: distribute; */
       justify-content: space-around;
       margin: 0 auto;
   }
