@@ -70,11 +70,11 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
+  border: 3px solid green;
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.1) rotate(10deg);
 }
 .tag {
   background-color: #efefef;
@@ -120,14 +120,44 @@ ul.skills {
   background: #0399ff;
 }
 
+.contact {
+  color: purple;
+  }
+  
 
-card .SCUBA-image {
-  margin-top: .5px;
-  width: .5px;
-  height: .15px;
+header .interests-image {
+  margin-top: 50px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
-  border: .5px solid rgb(255, 255, 255);
+  border: 5px solid blue;
   transition: all .5s;
+}
+header .interests-image:hover {
+  transform: scale(1.9) rotate(20deg);
+}
+
+/* .card SCUBA-image {
+  margin-top: 25px;
+  margin-bottom: 200px;
+  margin-left: 100px;
+  width: 150px;
+  height: 150px;
+  border-radius: 75%;
+  border: 2px solid white;
+  transition: all .5s;
+} */
+
+header .contact-image {
+  margin-top: 50px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid black;
+  transition: all .5s;
+}
+header .contact-image:hover {
+  transform: scale(2) rotate(70deg);
 }
 
 footer {
