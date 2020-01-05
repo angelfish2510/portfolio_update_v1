@@ -77,16 +77,48 @@ header .profile-image:hover {
   transform: scale(1.1) rotate(10deg);
 }
 .tag {
-  background-color: #efefef;
-  color: black;
+  background-color: #b1edab;
+  color: #00563f;
   padding: 10px;
   border-radius: 5px;
   display: table;
   margin: 10px auto;
+  border-color: #00563f;
+  border: 2.5px solid;
 } 
 .location {
-  background-color: #222;
-  color: yellow;
+  background-color: #b1edab;
+  color: #00563f;
+  border-color: #00563f;
+  border: 1.5px solid
+}
+
+.interests-header {
+  background-color: #8cbdee;
+  color: blue;
+  border-color: blue;
+  border: 2.5px solid
+}
+
+.interests-b {
+  background-color: #8cbdee;
+  color: blue;
+  border-color: blue;
+  border: 1.5px solid
+}
+
+.contact-header {
+  background-color: #89729e;
+  color: #390464;
+  border-color: #390464;
+  border: 2.5px solid
+}
+
+.contact-disclaimer {
+  background-color: #89729e;
+  color: #390464;
+  border-color: #390464;
+  border: 1.5px solid
 }
 .card {
   margin: 30px;
@@ -94,13 +126,13 @@ header .profile-image:hover {
   max-width: 500px;
   text-align: left;
   background: #fff;
-  border-bottom: 4px solid #ccc;
-  border-radius: 6px;
+  border: 4px solid #ccc;
+  border-radius: 8px;
   transition: all .5s;
   background-color: #b1edab
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #00563f;
 }
 
 .card-interests {
@@ -109,13 +141,13 @@ header .profile-image:hover {
   max-width: 500px;
   text-align: left;
   background: #fff;
-  border-bottom: 4px solid #ccc;
+  border: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
   background-color: #8cbdee;
 }
 .card-interests:hover {
-  border-color: #ff99ff;
+  border-color: blue;
 }
 
 ul.skills {
@@ -126,18 +158,18 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
-  color: white;
+  background: #ffa6c9;
+  color: #00563f;
   padding: 5px 10px;
   margin: 2px;
 }
 
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background: #ff85cf;
 }
 
 .contact {
-  color: purple;
+  color: #390464;
   }
   
 
@@ -153,16 +185,6 @@ header .interests-image:hover {
   transform: scale(1.9) rotate(20deg);
 }
 
-/* .card SCUBA-image {
-  margin-top: 25px;
-  margin-bottom: 200px;
-  margin-left: 100px;
-  width: 150px;
-  height: 150px;
-  border-radius: 75%;
-  border: 2px solid white;
-  transition: all .5s;
-} */
 
 header .contact-image {
   margin-top: 50px;
